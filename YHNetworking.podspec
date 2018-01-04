@@ -2,12 +2,12 @@ Pod::Spec.new do |s|
 
   s.name         = "YHNetworking"
   s.version      = "1.0.0"
-  s.summary      = "A tool to realize multiple inheritance! Support: http://www.jianshu.com/u/7c43d8cb3cff"
+  s.summary      = "A tool to realize broken-point downloading! Support: http://www.jianshu.com/u/7c43d8cb3cff"
   s.homepage     = "https://github.com/yuhechuan/YHNetworking"
   s.license      = "MIT"
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/yuhechuan/YHNetworking.git", :tag => s.version }
-  s.source_files = "sources/**/*.{h,m}"
+  s.source_files = "Sources/**/*.{h,m}"
   s.requires_arc = true
 
   s.author       = { "yuhechuan" => "yuhechuan@ruaho.com" }
