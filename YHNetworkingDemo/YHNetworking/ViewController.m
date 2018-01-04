@@ -27,7 +27,8 @@
      */
     
     YHFileDownloader *downloader = [[YHFileDownloader alloc]init];
-    NSString *imageUrl = @"http://www.8pmedu.com/files/system/2017/06-13/225247f9edb5180454.jpg";
+    NSString *imageUrl = @"http://cochat.cn/file/0YdgOOsdDBa9ppbVzuBiaGZ.jpg";
+    //@"http://www.8pmedu.com/files/system/2017/06-13/225247f9edb5180454.jpg";
     [downloader downloadFile:imageUrl progress:^(NSUInteger total, NSUInteger completed) {
         NSLog(@"total:%lu completed:%lu",(unsigned long)total,(unsigned long)completed);
     } success:^(NSURLResponse * _Nullable response, NSURL * _Nullable filePath) {
