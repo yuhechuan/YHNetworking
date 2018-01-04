@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "YHNetworking"
+  s.name         = "YHCNetworking"
   s.version      = "1.0.0"
   s.summary      = "A tool to realize broken-point downloading! Support: http://www.jianshu.com/u/7c43d8cb3cff"
   s.homepage     = "https://github.com/yuhechuan/YHNetworking"

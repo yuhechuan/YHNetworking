@@ -60,7 +60,7 @@ May you spend your life in the way you like,this sentence is so beautiful.
 
 * 两种导入方法：
 
-* 方法一：[CocoaPods](https://cocoapods.org/)：`pod 'YHNetworking'`
+* 方法一：[CocoaPods](https://cocoapods.org/)：`pod 'YHCNetworking'`
 
 * 方法二：直接把 sources 文件夹（在 Demo 中）拖拽到你的项目中
 
