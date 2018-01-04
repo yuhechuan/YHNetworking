@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1824AEB01FFDBC7900D2D7A8 /* YHFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824AEAC1FFDBC7900D2D7A8 /* YHFileDownloader.m */; };
+		1824AEB11FFDBC7900D2D7A8 /* YHFileUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824AEAE1FFDBC7900D2D7A8 /* YHFileUploader.m */; };
 		18F95B971FFB8A2900203C50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F95B961FFB8A2900203C50 /* AppDelegate.m */; };
 		18F95B9A1FFB8A2900203C50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F95B991FFB8A2900203C50 /* ViewController.m */; };
 		18F95B9D1FFB8A2900203C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F95B9B1FFB8A2900203C50 /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		18F95BA51FFB8A2900203C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F95BA41FFB8A2900203C50 /* main.m */; };
 		18F95BAF1FFB8A2900203C50 /* YHNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F95BAE1FFB8A2900203C50 /* YHNetworkingTests.m */; };
 		18F95BBA1FFB8A2900203C50 /* YHNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F95BB91FFB8A2900203C50 /* YHNetworkingUITests.m */; };
-		18F95BCE1FFB921600203C50 /* YHFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F95BCD1FFB921600203C50 /* YHFileDownloader.m */; };
-		18F95BDB1FFCDCBC00203C50 /* YHFileUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F95BDA1FFCDCBC00203C50 /* YHFileUploader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1824AEAB1FFDBC7900D2D7A8 /* YHFileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFileDownloader.h; sourceTree = "<group>"; };
+		1824AEAC1FFDBC7900D2D7A8 /* YHFileDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFileDownloader.m; sourceTree = "<group>"; };
+		1824AEAD1FFDBC7900D2D7A8 /* YHFileUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFileUploader.h; sourceTree = "<group>"; };
+		1824AEAE1FFDBC7900D2D7A8 /* YHFileUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFileUploader.m; sourceTree = "<group>"; };
+		1824AEAF1FFDBC7900D2D7A8 /* YHNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHNetworking.h; sourceTree = "<group>"; };
 		18F95B921FFB8A2900203C50 /* YHNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F95B951FFB8A2900203C50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F95B961FFB8A2900203C50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,11 +58,6 @@
 		18F95BB51FFB8A2900203C50 /* YHNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F95BB91FFB8A2900203C50 /* YHNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHNetworkingUITests.m; sourceTree = "<group>"; };
 		18F95BBB1FFB8A2900203C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18F95BCC1FFB921600203C50 /* YHFileDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHFileDownloader.h; sourceTree = "<group>"; };
-		18F95BCD1FFB921600203C50 /* YHFileDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHFileDownloader.m; sourceTree = "<group>"; };
-		18F95BD91FFCDCBC00203C50 /* YHFileUploader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHFileUploader.h; sourceTree = "<group>"; };
-		18F95BDA1FFCDCBC00203C50 /* YHFileUploader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHFileUploader.m; sourceTree = "<group>"; };
-		18F95BDC1FFCDD3300203C50 /* YHNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHNetworking.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1824AEAA1FFDBC7900D2D7A8 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				1824AEAB1FFDBC7900D2D7A8 /* YHFileDownloader.h */,
+				1824AEAC1FFDBC7900D2D7A8 /* YHFileDownloader.m */,
+				1824AEAD1FFDBC7900D2D7A8 /* YHFileUploader.h */,
+				1824AEAE1FFDBC7900D2D7A8 /* YHFileUploader.m */,
+				1824AEAF1FFDBC7900D2D7A8 /* YHNetworking.h */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
 		18F95B891FFB8A2900203C50 = {
 			isa = PBXGroup;
 			children = (
-				18F95BC71FFB8A6D00203C50 /* source */,
+				1824AEAA1FFDBC7900D2D7A8 /* sources */,
 				18F95B941FFB8A2900203C50 /* YHNetworking */,
 				18F95BAD1FFB8A2900203C50 /* YHNetworkingTests */,
 				18F95BB81FFB8A2900203C50 /* YHNetworkingUITests */,
@@ -138,18 +150,6 @@
 				18F95BBB1FFB8A2900203C50 /* Info.plist */,
 			);
 			path = YHNetworkingUITests;
-			sourceTree = "<group>";
-		};
-		18F95BC71FFB8A6D00203C50 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				18F95BDC1FFCDD3300203C50 /* YHNetworking.h */,
-				18F95BCC1FFB921600203C50 /* YHFileDownloader.h */,
-				18F95BCD1FFB921600203C50 /* YHFileDownloader.m */,
-				18F95BD91FFCDCBC00203C50 /* YHFileUploader.h */,
-				18F95BDA1FFCDCBC00203C50 /* YHFileUploader.m */,
-			);
-			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,9 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F95B9A1FFB8A2900203C50 /* ViewController.m in Sources */,
+				1824AEB01FFDBC7900D2D7A8 /* YHFileDownloader.m in Sources */,
 				18F95BA51FFB8A2900203C50 /* main.m in Sources */,
-				18F95BCE1FFB921600203C50 /* YHFileDownloader.m in Sources */,
-				18F95BDB1FFCDCBC00203C50 /* YHFileUploader.m in Sources */,
+				1824AEB11FFDBC7900D2D7A8 /* YHFileUploader.m in Sources */,
 				18F95B971FFB8A2900203C50 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
