@@ -82,7 +82,7 @@ static NSString *YHRequestDownloadMd5String(NSString *key) {
     if (!configuration) {
         configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     }
-    _destinationPath = (!destinationPath && destinationPath.length > 0)? destinationPath : [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    _destinationPath = (destinationPath && destinationPath.length > 0)? destinationPath : [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
     _isBrokenPointLoading = YES;
     _session = [NSURLSession sessionWithConfiguration:configuration delegate:self delegateQueue:nil];
     
